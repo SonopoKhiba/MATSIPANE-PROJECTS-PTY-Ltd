@@ -260,7 +260,7 @@
                 hydrological and geohydrological consulting services.
             </p>
 
-            <form action="https://formsubmit.co/sonopokhiba30@gmail.com" method="POST" class="contact-form">
+            <form action="https://formsubmit.co/sonopokhiba30@gmail.com" method="POST" id="contact-form">
             
                 <input type="text" name="name" placeholder="Your Name" required>
             
@@ -268,15 +268,17 @@
             
                 <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
             
-                <!-- Optional settings -->
                 <input type="hidden" name="_subject" value="New message from website!">
                 <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="box">
             
                 <button type="submit">Send Message</button>
-
-                <input type="hidden" name="_next" value="thankyou.html">
             
             </form>
+            
+            <p id="success-message" style="display:none; color:green; margin-top:15px;">
+                ✅ Thank you! Your message has been sent successfully.
+            </p>
             
         </div>
     </section>

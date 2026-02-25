@@ -297,14 +297,14 @@ hr {
     line-height: 1.6;
 }
 
-.contact-form {
+#contact-form {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.contact-form input,
-.contact-form textarea {
+#contact-form input,
+#contact-form textarea {
     padding: 15px;
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -313,14 +313,14 @@ hr {
     transition: border 0.2s ease, box-shadow 0.2s ease;
 }
 
-.contact-form input:focus,
-.contact-form textarea:focus {
+#contact-form input:focus,
+#contact-form textarea:focus {
     outline: none;
     border-color: #20048d;
     box-shadow: 0 0 0 3px rgba(32, 4, 141, 0.1);
 }
 
-.contact-form button {
+#contact-form button {
     padding: 15px;
     background-color: #20048d;
     color: #fff;
@@ -331,7 +331,7 @@ hr {
     transition: background-color 0.2s ease, transform 0.1s ease;
 }
 
-.contact-form button:hover {
+#contact-form button:hover {
     background-color: #160364;
     transform: translateY(-2px);
 }
